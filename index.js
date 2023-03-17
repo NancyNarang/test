@@ -8,7 +8,7 @@ function PlusMinus(props){
     }
     return (<>
         <img src={`icons/${props.section}plus.png`} id="plus" onClick={((e) => handle(e))}/>
-        <img src={`icons/${props.section}_minus.png`} id="minus" onClick={((e) => handle(e))}/>
+        <img src={`icons/${props.section}minus.png`} id="minus" onClick={((e) => handle(e))}/>
     </>);
 }
 
